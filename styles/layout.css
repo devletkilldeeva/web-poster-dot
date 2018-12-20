@@ -1,0 +1,310 @@
+@import "font.css";
+
+body {
+  background-color: #140e3d;
+}
+
+.background768 {
+  height: 2300px;
+}
+
+p {
+  width: 80vw;
+  margin-left: 20px;
+
+  color: #fff;
+
+  font-family: 'Avenir Next Cyr Demi';
+  line-height: 25px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  /* width: 300px; */
+  margin-left: 20px;
+
+  color: #fff;
+
+  font-family: 'Avenir Next Cyr Bold';
+  font-size: 26px;
+}
+
+h3 {
+  width: 70vw;
+
+  color: #fff;
+
+  font-family: 'Avenir Next Cyr Bold';
+}
+
+.presentation {
+  margin-bottom: 100px;
+  margin-left: 35px;
+}
+
+.presentation li:first-of-type {
+  color: #fff;
+  font-size: 24px;
+
+  font-family: 'Avenir Next Cyr Bold';
+}
+
+.presentation li:nth-child(2) {
+  font-size: 25px;
+}
+
+.presentation li:nth-child(3) {
+  font-size: 20px;
+}
+
+.presentation li {
+  color: #fff;
+
+  font-family: 'Avenir Next Cyr Regular';
+}
+
+.adress {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.adress li {
+  color: #fff;
+  font-size: 15px;
+
+  font-family: 'Avenir Next Cyr Regular';
+}
+
+.travel {
+  margin-top: 150px;
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel img {
+  position: absolute;
+  z-index: -1;
+}
+
+.dot1 img {
+  width: 100px;
+}
+
+.dot1 {
+  position: absolute;
+  margin-top: -185px;
+  margin-left: 190px;
+}
+
+.dot2 img {
+  width: 150px;
+  float: right;
+}
+
+.dot2 {
+  float: right;
+  display: flex;
+  margin-top: -100px;
+  margin-right: 20px;
+}
+
+.circle1, .circle2 {
+  position: absolute;
+  z-index: -1;
+}
+
+.circle1 {
+  margin-top: -170px;
+  margin-left: 5px;
+}
+
+.circle2 {
+  margin-top: -100px;
+  margin-left: 5px;
+}
+
+.background {
+  position: absolute;
+  z-index: -2;
+
+  overflow: hidden;
+
+  width: 100vw;
+}
+
+.logo {
+  display: grid;
+
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 70px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: none;
+}
+
+.about p {
+  margin-bottom: 100px;
+
+  font-family: 'Avenir Next Cyr Regular';
+  font-size: 20px;
+}
+
+.main {
+  width: 100vw;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.portability p, .compactness p, .safety p . {
+  font-size: 19px;
+}
+
+.portability p {
+  margin-bottom: 100px;
+}
+
+.compactness p {
+  margin-bottom: 250px;
+}
+
+.safety p {
+  margin-bottom: 100px;
+}
+
+.background1024, .background1440 {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .background1440 {
+    display: flex;
+  }
+
+  .background1024, .background768 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .description {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .description img {
+    width: 120px;
+  }
+
+  .logo {
+    margin-bottom: -50px;
+  }
+
+  .logo > img {
+    width: 100px;
+  }
+
+  .about p {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .presentation {
+    margin-left: 200px;
+  }
+
+  .presentation li:first-of-type {
+    font-size: 30px;
+  }
+
+  .presentation li:nth-child(2) {
+    font-size: 31px;
+  }
+
+  .presentation li:nth-child(3) {
+    font-size: 24px;
+  }
+
+  .dot1 {
+    margin-left: 450px;
+    margin-top: -210px;
+  }
+
+  .dot1 > img {
+    width: 150px;
+  }
+
+  .dot2 > img {
+    width: 250px;
+  }
+
+  .circle2 {
+    margin-left: 350px;
+    margin-top: -180px;
+  }
+
+  .adress {
+    margin-top: 200px;
+  }
+
+  .adress li {
+    font-size: 20px;
+  }
+
+  .travel {
+    margin-top: 325px;
+  }
+
+  h3 {
+    width: 80vw;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .background1440 {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .background768, .background1024 {
+    display: none;
+  }
+
+  .presentation {
+    margin-left: 20px;
+  }
+
+  .dot1 {
+    margin-left: 873px;
+    margin-top: -250px;
+    overflow: hidden;
+  }
+
+  .dot1 > img {
+    width: 300px;
+  }
+
+  .
+}
