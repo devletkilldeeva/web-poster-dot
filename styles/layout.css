@@ -8,6 +8,10 @@ body {
   height: 2300px;
 }
 
+.bg {
+  display: none;
+}
+
 p {
   width: 80vw;
   margin-left: 20px;
@@ -294,14 +298,121 @@ h3 {
 
   .presentation {
     margin-left: 20px;
+    position: absolute;
+    top: 450px;
   }
 
   .dot1 {
-    margin-left: 200px;
-    margin-top: -250px;
+    margin-left: 790px;
+    top: 1050px;
   }
 
   .dot1 > img {
-    width: 250px;
+    width: 220px;
   }
+
+  .dot2 {
+    margin-top: 10px;
+  }
+
+  .portability, .compactness, .safety {
+    margin-left: 220px;
+  }
+
+  .portability {
+    margin-bottom: 200px;
+  }
+
+  .about {
+    margin-left: 220px;
+    margin-bottom: 200px;
+  }
+
+  p {
+    width: 50vw;
+  }
+
+  h2 {
+    font-size: 47px;
+  }
+
+  .circle1 {
+    margin-top: -300px;
+    margin-left: 200px;
+  }
+
+  .adress {
+    margin-top: 270px;
+  }
+
+  .travel {
+    margin-top: 400px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .background1440 {
+    display: none;
+  }
+  .bg {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .logo > img {
+    width: 150px;
+  }
+
+  .description > img {
+    width: 140px;
+  }
+
+  .about p {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .about {
+    margin-left: 350px;
+    margin-bottom: -10px;
+  }
+
+  .main p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .safety p {
+    margin-bottom: -50px;
+  }
+
+  h2 {
+    font-size: 66px;
+  }
+
+  .dot1 {
+    margin-left: 1100px;
+    top: 1050px;
+  }
+
+  .dot1 > img {
+    width: 400px;
+  }
+
+  .dot2 {
+    display: block;
+  }
+
+  .dot2 > img {
+    width: 350px;
+  }
+
+  .adress {
+    margin-top: 200px;
+  }
+
+  .portability, .compactness, .safety {
+    margin-left: 350px;
+  }
+
 }
